@@ -1,0 +1,43 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Data files that shouldn't be tracked
+*.csv  # Exclude CSV files unless explicitly added (e.g., we will add titanic.csv manually)
+!titanic.csv  # Explicitly include the main dataset
+
+# Backup directory (if you don't want to track it)
+backup/
+
+# Other common ignores
+*.bak
+*.gho
+*.orig
+*.tmp
+*.temp
+
+# Sensitive information
+*.env
+*.key
+*.pem
